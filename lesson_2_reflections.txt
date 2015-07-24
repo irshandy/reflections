@@ -1,0 +1,11 @@
+? What happens when you initialize a repository? Why do you need to do
+it?
+* When a repository is initialized, a .git directory is created inside
+the directory initialized. This will enable us to use git commands in-
+side the directory. We can also use file tracking now.
+
+? How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+* Staging area is an intermediate area between working directory and
+the repository. It offers more control on which files we want to add
+to the repository.
