@@ -1,0 +1,48 @@
+? How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+* The diff helps pinpoint the difference between the files, therefore
+we know which line has changed and might introduce the bug
+
+? How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+* By having access to the entire history of a file, we can revert to
+the older version of the file if something goes wrong after a change.
+We can also use diff between the old file and the new file to find the
+source of some bugs.
+
+? What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions auto-
+matically saved, like Google docs does?
+* Pros: more control, can commit at the right time (when not typing,
+etc)
+Cons: Commits may be too big if we forget to commit, changes may not 
+be recorded
+
+? Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+* The feature of each version control systems depends on how we use
+the system. For example, Google Docs may not allow saving multiple
+files in one commit because we don't normally need to save multiple 
+files in a single commit. Git allow multi-files saving because we 
+use it for codes that is interconnected and we need that multi-files
+saving feature.
+
+? How can you use the commands git log and git diff to view the
+history of files?
+* First, we need to move into the directory of the repository, then
+we can use "git log" to see the history of the commits. We can search
+for a specific changes by looking into the description. Then, we can
+compare two files by using "git diff". Using "git diff", we can see
+what changes has been made between two versions of a file.
+
+? How might using version control make you more confident to make 
+changes that could break something?
+* By using version control, we are sure that we can revert some files
+into past state if something goes wrong. Therefore, we can be less
+afraid to make changes that could break something.
+
+? Now that you have your workspace set up, what do you want to try
+using Git for?
+* I think I can try using Git for my next web development project, it
+is also good for robot development so I can debug easily.
