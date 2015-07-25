@@ -9,3 +9,19 @@ repository? What value do you think it offers?
 * Staging area is an intermediate area between working directory and
 the repository. It offers more control on which files we want to add
 to the repository.
+
+? How can you use the staging area to make sure you have one commit
+per logical change?
+* By using staging area, we can add only the file we changed and we
+should make sure we committed once per logical change we made.
+
+? What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+* Branches would be helpful if we are trying to experiment big in the
+code or if we are trying to refactor the code. Branches would enable
+differentiation between two version of program.
+
+? How do the diagrams help you visualize the branch structure?
+* Diagrams can help visualize the branch structure by showing existing
+branches and commits in each branch. It makes it easier to visualize
+the structure of the branch.
