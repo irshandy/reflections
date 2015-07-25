@@ -31,3 +31,8 @@ represent it in the diagram the way we do?
 * By merging two branches together, we will introduce changes made
 in both branches to the code. We represent it in the diagram because
 it's very representative.
+
+? What are the pros and cons of Git's automatic merging vs. always
+doing merges manually?
+* Git's automatic merging makes merging easy, but when there are some
+conflicts, merges manually may be very helpful in resolving it.
