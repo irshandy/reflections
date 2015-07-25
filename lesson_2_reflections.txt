@@ -25,3 +25,9 @@ differentiation between two version of program.
 * Diagrams can help visualize the branch structure by showing existing
 branches and commits in each branch. It makes it easier to visualize
 the structure of the branch.
+
+? What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+* By merging two branches together, we will introduce changes made
+in both branches to the code. We represent it in the diagram because
+it's very representative.
