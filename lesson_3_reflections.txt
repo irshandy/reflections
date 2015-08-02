@@ -5,3 +5,9 @@
 remote repository?
 * Usually we want our file to be ready before making it into public. When the remote repository is always up-to-date,
 sometimes the files pushed into the remote repository is not yet ready and is buggy.
+
+? Describe the differences between forks, clones, and branches. When would you use one instead of another?
+* Forks is used when we want to "clone" repositories on GitHub. Forks is used when we don't want to modify the
+original repositories. Clones is used when we want to have a copy of a repositories either from remote or local
+repositories in our computer. Branches is used when we want to make changes that won't affect the original branch.
+
