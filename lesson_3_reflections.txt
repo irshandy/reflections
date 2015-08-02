@@ -32,3 +32,9 @@ be easier, and what would be harder?
 or cloud services. It would be easier because we don't need to learn
 about Git. But comparing files and checking the history of the files
 would be harder.
+
+? When would you want to make changes in a separate branch rather
+than directly in master? What benefits does each approach have?
+* We want to work in branches if we want to try deploying features
+while leaving the master branch untouched. It is easier and quicker to
+apply small changes in the master branch but it will come with a risk.
